@@ -82,11 +82,11 @@ The following graph shows the importance of each feature in predicting customer 
 #### **Confusion Matrix**
 Below is the confusion matrix for the Random Forest classifier, which helps visualize the model's performance on predicting churn versus non-churn customers.
 
-![Confusion Matrix](Images/charts/output2.png)
+![Confusion Matrix](Images - charts/output2.png)
 #### **ROC Curve**
 Below is the ROC curve for the Random Forest classifier, showcasing the trade-off between true positive rate and false positive rate.
 
-![ROC Curve](Images/charts/output-1.png)
+![ROC Curve](Images - charts/output-1.png)
 
 #### **Cross-Validation**
 - 5-fold cross-validation score: **91.26%**
