@@ -64,6 +64,10 @@ SyriaTel's customer churn challenges threaten its revenue and growth. Identifyin
 - **Total Day Minutes**: Indicates customer engagement; lower usage correlates with higher churn.
 - **Customer Service Calls**: High call frequency correlates with churn, highlighting service quality issues.
 
+#### **Feature Importance**
+The following graph shows the importance of each feature in predicting customer churn, helping to identify which features most influence the model's decisions.
+
+![Feature Importance](Images/charts/output3.png)
 ---
 
 ### **Modeling and Evaluation**
@@ -74,6 +78,15 @@ SyriaTel's customer churn challenges threaten its revenue and growth. Identifyin
   - Precision (Churn): **0.65**
   - Recall (Churn): **0.67**
   - F1-Score (Churn): **0.66**
+
+#### **Confusion Matrix**
+Below is the confusion matrix for the Random Forest classifier, which helps visualize the model's performance on predicting churn versus non-churn customers.
+
+![Confusion Matrix](Images/charts/output2.png)
+#### **ROC Curve**
+Below is the ROC curve for the Random Forest classifier, showcasing the trade-off between true positive rate and false positive rate.
+
+![ROC Curve](Images/charts/output-1.png)
 
 #### **Cross-Validation**
 - 5-fold cross-validation score: **91.26%**
